@@ -7,10 +7,10 @@ import { Login } from './components/Login';
 export default class App extends Component {
     displayName = App.name
     constructor() {
-        super()
+        super();
         this.state = {
             currentUser: null
-        }
+        };
     }
 
     render() {
